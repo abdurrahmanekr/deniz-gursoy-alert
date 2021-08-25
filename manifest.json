@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Deniz Gürsoy Alert",
+  "description": "Bir yerde Deniz Gürsoy'un parmağı varsa bildiren eklenti",
+  "version": "1.0",
+  "author": "Avare Kodcu <abdurrahmaneker58@gmail.com>",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://*/*"
+    ],
+    "js": ["content.js"]
+  }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
